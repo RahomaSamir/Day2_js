@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2</title>
+    <style>
+        .text p{
+            color: rgb(216, 36, 36);
+            font-weight: bold;
+        
+        }
+        .text span{
+            color: black;
+        }
+        body{
+            justify-content: center;
+            background-color:white;
+            margin-top: 50px;
+            
+        }
+        button{
+            background-color: rgb(46, 157, 46);
+            color: aliceblue; 
+           }
+        button:hover{
+            background-color: rgb(10, 75, 49);
+        }   
+        button , input{
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <script src="task2.js"></script>
+    
+    <h1>Enter the sentance:</h1>
+<div>
+     <input type="text" id="inputString" placeholder="Enter a sentence here">
+     <button onclick="displayLargestWord()">find largest word</button>
+</div>
+
+<div class="text">
+
+    <p> The largest word is: <span id="largestWord"></span></p>
+
+</div>
+</body>
+</html>

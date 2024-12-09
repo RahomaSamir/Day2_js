@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+    
+    <style>
+
+        .text p{
+            color: rgb(216, 36, 36);
+            font-weight: bold;
+        
+        }
+        .text span{
+            color: black;
+        }
+        body{
+            justify-content: center;
+            background-color: beige;
+            margin-top: 50px;
+            
+        }
+        
+        button{
+            background-color: rgb(40, 194, 84);
+        }
+        button:hover{
+            background-color: rgb(57, 231, 103);
+        }
+    </style>
+</head>
+<body>
+    <script src="task3.js"></script>
+    <h1>Sorting</h1>
+    <hr>
+    <h3>Enter 5 number:</h3>
+<div>
+     <input type="number" id="arrayvalue" placeholder="Enter a number">
+     <button onclick="addvalue()">Add</button>
+</div>
+
+<div class="text">
+    <p>Enter 5 numerical values to fill the array: <span id= "entervalues"></span></p>
+    <p> values after sorting descendinf: <span id="descending"></span></p>
+    <p> values after sorting ascendinf: <span id="ascending"></span></p>
+</div>
+
+</body>
+</html>
